@@ -365,6 +365,8 @@ img {
 .testimonial__autor{
     text-align: right;
     margin-bottom: 0;
+    color: var(--primario);
+    font-weight: bold;
 }
 /* FOOTER */
 .footer{
