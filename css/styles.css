@@ -381,15 +381,21 @@ img {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 2rem 0;
     }
 }
-.footer__heading{
-    color: var(--blanco);
-    margin: 0;
+.footer__logo{
+    width: 20rem;
+    margin: 0 auto 4rem auto;
+}
+@media (min-width: 768px) {
+    .footer__logo{
+        margin: 0;
+    }
 }
 .copyright {
     text-align: center;
     color: var(--blanco);
     margin: 0;
-    padding-bottom: 1rem;
+    padding: 2rem 0 1rem;
 }
