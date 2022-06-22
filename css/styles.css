@@ -385,3 +385,9 @@ img {
     color: var(--blanco);
     margin: 0;
 }
+.copyright {
+    text-align: center;
+    color: var(--blanco);
+    margin: 0;
+    padding-bottom: 1rem;
+}

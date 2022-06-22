@@ -113,7 +113,7 @@ let slider = document.querySelector("#slider");
 let sliderIndividual = document.querySelectorAll(".testimonial");
 let contador = 1;
 let width = sliderIndividual[0].clientWidth;
-let intervalo = 3000;
+let intervalo = 5000;
 
 window.addEventListener("resize", function(){
      width = sliderIndividual[0].clientWidth;
